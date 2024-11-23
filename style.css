@@ -1,0 +1,102 @@
+header , nav ul{
+    display: flex;
+ }
+ 
+ header{
+    justify-content: space-between;
+    background-color: rgba(64, 132, 190, 0.292);
+    border: 1px solid rgba(255, 255, 255, 0.308);
+    border-radius: 10px;
+ }
+ nav ul{
+    gap: 35px;
+    font-size: 1.5rem;
+ }
+ nav ul li{
+    list-style: none;
+ }
+ nav ul li a{
+    text-decoration: none;
+    color: black;
+ }
+ 
+ .bnt-loing{
+     background-color: rgb(37, 116, 90);
+     border: 2px solid white;
+     border-radius: 5px;
+     padding: 1px 10px;
+     font-size: 1rem;
+ }
+ 
+ .bnt-loing:hover{
+     background: blue;
+     color: white;
+ }
+ 
+ .bnt-loing a{
+     color: white;
+ }
+ .overview{
+    background-image: url(image/plan.png);
+    height: 600px;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+ }
+ .overview .contenair{
+     width: 60%;
+     min-width: 400px;
+     max-width: 600px;
+     text-align: center;
+     color: red;
+ }
+ 
+.mere{
+    display: flex;
+}
+.partiedroite{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 40px;
+}
+
+
+h1, h2 {
+    color: red;
+}
+.formulaire{
+    justify-content: center;
+}
+.form input{
+    justify-content: center;
+    width: 300px;
+    height: 70px;
+    border-radius: 10px;
+}
+input, 
+textarea {
+    justify-content: center;
+    margin: 5px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 1.1rem;
+}
+textarea{
+    resize: none;
+} 
+#bout{
+    height: 40px;
+    border: 1px solid red;
+    border-radius: 10px;
+    cursor: pointer;
+    background: rgb(46, 176, 145);
+}
+
+#bout:hover{
+    background: blue;
+    color: white;
+}
